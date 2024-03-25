@@ -30,7 +30,10 @@ async function LoginForme(value) {
     })
 
   return <>
-    <h2>Login Now...........</h2>
+  <div className="container">
+    <div className="row">
+        <div className="col-md-6">
+        <h2>Login Now...........</h2>
         {/* {errMessage !== "" ? <div className="alert alert-danger">{errMessage}</div> : ""} */}
 
         <form onSubmit={formik.handleSubmit}>
@@ -57,13 +60,17 @@ async function LoginForme(value) {
             </div>
         <div>
             
-            {loading ? <button disabled={!(formik.isValid && formik.dirty)} type='submit' className='btn btn-success' >Login</button> : <button type='button' className='btn btn-success' >
+            {loading ? <button disabled={!(formik.isValid && formik.dirty)} type='submit' className='btn btn-info' >Login</button> : <button type='button' className='btn btn-info' >
                   <i className="fa-solid fa-spinner fa-spin"></i>
               </button>}
             </div>
         </div>
             
         </form>
+        </div>
+    </div>
+  </div>
+   
     </>
 
 }
