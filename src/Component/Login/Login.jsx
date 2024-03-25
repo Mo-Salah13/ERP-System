@@ -60,7 +60,7 @@ async function LoginForme(value) {
             </div>
         <div>
             
-            {loading ? <button disabled={!(formik.isValid && formik.dirty)} type='submit' className='btn btn-success' >Login</button> : <button type='button' className='btn btn-success' >
+            {loading ? <button disabled={!(formik.isValid && formik.dirty)} type='submit' className='btn btn-info' >Login</button> : <button type='button' className='btn btn-info' >
                   <i className="fa-solid fa-spinner fa-spin"></i>
               </button>}
             </div>

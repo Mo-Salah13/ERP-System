@@ -79,7 +79,7 @@ export default function Register() {
                 </div> : ''}
             </div>
 
-            {loading ? <button disabled={!(formik.isValid && formik.dirty)} type='submit' className='btn btn-success' >Register</button> : <button type='button' className='btn btn-success' >
+            {loading ? <button disabled={!(formik.isValid && formik.dirty)} type='submit' className='btn btn-info' >Register</button> : <button type='button' className='btn btn-info' >
                 <i className="fa-solid fa-spinner fa-spin"></i>
             </button>}
 
