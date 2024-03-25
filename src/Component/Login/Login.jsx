@@ -30,7 +30,10 @@ async function LoginForme(value) {
     })
 
   return <>
-    <h2>Login Now...........</h2>
+  <div className="container">
+    <div className="row">
+        <div className="col-md-6">
+        <h2>Login Now...........</h2>
         {/* {errMessage !== "" ? <div className="alert alert-danger">{errMessage}</div> : ""} */}
 
         <form onSubmit={formik.handleSubmit}>
@@ -64,6 +67,10 @@ async function LoginForme(value) {
         </div>
             
         </form>
+        </div>
+    </div>
+  </div>
+   
     </>
 
 }
