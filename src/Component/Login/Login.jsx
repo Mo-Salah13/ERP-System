@@ -32,7 +32,7 @@ export default function Login() {
     })
 
     return <>
-        <div className="container mt-5">
+        <div className="container box mt-5">
             <div className="row  align-items-center justify-content-center">
                 <div className="col-md-6 ">
                     <img src={login} className='w-100' alt="login logo" />
