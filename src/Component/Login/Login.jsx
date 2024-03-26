@@ -34,10 +34,10 @@ export default function Login() {
     return <>
         <div className="container box mt-5">
             <div className="row  align-items-center justify-content-center">
-                <div className="col-md-6 ">
+                <div className="col-md-4 ">
                     <img src={login} className='w-100' alt="login logo" />
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-6">
                     <h2>Login Now...........</h2>
                     {/* {errMessage !== "" ? <div className="alert alert-danger">{errMessage}</div> : ""} */}
 
