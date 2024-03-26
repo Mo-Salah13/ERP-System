@@ -5,6 +5,7 @@ import Login from './Component/Login/Login'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import NotFound from './Component/NotFound/NotFound'
 import Home from './Component/Home/Home'
+import Company from './Component/Company/Company'
 
 let routers = createBrowserRouter([
   {
@@ -12,6 +13,7 @@ let routers = createBrowserRouter([
       { path:'login', element: <Login/> },
       { path: 'register', element: <Register /> },
       { path: 'home', element: <Home /> },
+      { path: 'company', element: <Company /> },
       { path: '*', element: <NotFound /> },
     ]
   }
