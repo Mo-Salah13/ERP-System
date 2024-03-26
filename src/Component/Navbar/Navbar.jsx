@@ -12,10 +12,10 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 ">
                         <li className="nav-item d-flex align-items-center">
-                            <i className="fa-brands fa-facebook mx-2"></i>
-                            <i className="fa-brands fa-x-twitter mx-2"></i>
-                            <i className="fa-brands fa-youtube mx-2"></i>
-                            <i className="fa-brands fa-instagram mx-2"></i>
+                            <i className="fa-brands text-info-emphasis fa-facebook mx-2"></i>
+                            <i className="fa-brands text-black fa-x-twitter mx-2"></i>
+                            <i className="fa-brands text-primary fa-linkedin mx-2"></i>
+                            <i className="fa-brands fa-github mx-2"></i>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="register">Register</Link>
